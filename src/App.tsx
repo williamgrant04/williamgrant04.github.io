@@ -1,9 +1,10 @@
 import styled from "styled-components"
+import DataTable from "./components/DataTable"
 
 const App = () => {
 
   return (
-    <Container>
+    <Page>
       <h1>Hi, I'm Will</h1>
       <p>Junior full-stack web developer</p>
 
@@ -15,21 +16,25 @@ const App = () => {
             <p>Throughout the years I've worked with HTML, CSS, JS, ReactJS, Ruby and I've dabbled in C#, and recently I've starting working in TypeScript with React. After some time trying to decide between game development, software development and web development, I decided on web development.</p>
           </About>
 
-          <LangTools>
+          <div>
             <h2>Languages & Tools</h2>
             <h3>Stack</h3>
-            <Stack>
-              
-            </Stack>
+            <DataTable type="stack"/>
+
             <h3>Tools</h3>
-          </LangTools>
+            <DataTable type="tools" />
+          </div>
         </StackAbout>
 
         <Projects>
-          {/* Scrollable */}
+          <h2>Projects</h2>
+
+          <ProjectsScroll>
+            {/* Scrollable */}
+          </ProjectsScroll>
         </Projects>
       </ContentWrapper>
-    </Container>
+    </Page>
   )
 }
 
@@ -41,27 +46,21 @@ const StackAbout = styled.div`
 `
 
 const About = styled.div`
-  background-color: red;
-  margin-bottom: 32px;
-`
-
-const LangTools = styled.div`
-  background-color: green;
-`
-
-const Stack = styled.div`
-  background-color: yellow;
+  font-size: 20px;
+  margin-bottom: 16px;
 `
 
 const Projects = styled.div`
-  background-color: blue;
-  overflow-y: scroll;
   width: 40%;
 `
 
-const Container = styled.div`
+const ProjectsScroll = styled.div`
+  overflow-y: scroll;
+`
+
+const Page = styled.div`
   font-family: sans-serif;
-  padding: 128px;
+  padding: 48px 128px;
   height: 100vh;
 
   h1 {

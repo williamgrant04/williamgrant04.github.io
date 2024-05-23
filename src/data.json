@@ -1,0 +1,71 @@
+{
+  "stack": {
+    "frontEnd": [
+      {
+        "href": "https://react.dev/",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+        "type": "React"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+        "type": "Javscript"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png",
+        "type": "HTML"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        "type": "CSS"
+      },
+      {
+        "href": "https://styled-components.com/",
+        "src": "https://avatars.githubusercontent.com/u/20658825?s=200&v=4",
+        "type": "Styled components"
+      }
+    ],
+
+    "backEnd": [
+      {
+        "href": "https://www.ruby-lang.org/en/",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/2048px-Ruby_logo.svg.png",
+        "type": "Ruby"
+      },
+      {
+        "href": "https://rubyonrails.org/",
+        "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/2560px-Ruby_On_Rails_Logo.svg.png",
+        "type": "Ruby on Rails"
+      }
+    ]
+  },
+  "tools": [
+    {
+      "href": "",
+      "src": "https://code.visualstudio.com/assets/images/code-stable.png",
+      "type": "Visual Studio Code"
+    },
+    {
+      "href": "",
+      "src": "https://cdn.iconscout.com/icon/free/png-256/free-heroku-225989.png",
+      "type": "Heroku"
+    },
+    {
+      "href": "",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
+      "type": "Git"
+    },
+    {
+      "href": "",
+      "src": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+      "type": "GitHub"
+    },
+    {
+      "href": "",
+      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
+      "type": "PostgreSQL"
+    }
+  ]
+}
