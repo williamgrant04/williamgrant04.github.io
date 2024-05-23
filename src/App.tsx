@@ -1,19 +1,24 @@
 import styled from "styled-components"
 import DataTable from "./components/DataTable"
+import projects from "./projects.json"
+import Project from "./components/Project"
 
 const App = () => {
 
   return (
     <Page>
+
       <h1>Hi, I'm Will</h1>
-      <p>Junior full-stack web developer</p>
+      <p><em>Junior full-stack web developer</em></p>
 
       <ContentWrapper>
         <StackAbout>
           <About>
             <h2>About</h2>
-            <p>Hi, I'm William, or Will. I've always been interested in something computers and code, even since primary school, I would drive the IT guys crazy by messing around with settings and I would play around with inspect element and change styles on random webpages.</p>
-            <p>Throughout the years I've worked with HTML, CSS, JS, ReactJS, Ruby and I've dabbled in C#, and recently I've starting working in TypeScript with React. After some time trying to decide between game development, software development and web development, I decided on web development.</p>
+
+            <p>Hi, I'm William, or Will. For a very long time, I've known I wanted to do something with computers. I wasn't sure what, but computers were the focus. After a while, I found out about coding (keep in mind, in this scenario, I was in primary school), and from then on, I knew that's what I wanted to pursue.</p>
+            <p>I wasn't sure what kind of development I wanted to do, but after some time trying to decide between games, software, and web, I decided on web development.</p>
+            <p>Throughout the years, I've worked with HTML, CSS, JS, ReactJS, and Ruby. I've also dabbled in C#, and recently, I've started working with TypeScript and React.</p>
           </About>
 
           <div>
@@ -22,15 +27,17 @@ const App = () => {
             <DataTable type="stack"/>
 
             <h3>Tools</h3>
-            <DataTable type="tools" />
+            <DataTable type="tools"/>
           </div>
         </StackAbout>
 
         <Projects>
-          <h2>Projects</h2>
+          <ProjectsTitle>Projects</ProjectsTitle>
 
           <ProjectsScroll>
-            {/* Scrollable */}
+            {projects.map(({ title, link, repo, apiRepo, image }) => {
+              return <Project title={title} link={link} repo={repo} apiRepo={apiRepo} image={image} key={title}/>
+            })}
           </ProjectsScroll>
         </Projects>
       </ContentWrapper>
@@ -54,14 +61,23 @@ const Projects = styled.div`
   width: 40%;
 `
 
+const ProjectsTitle = styled.h2`
+  margin: 0;
+  height: 5%;
+`
+
 const ProjectsScroll = styled.div`
   overflow-y: scroll;
+  height: 80vh;
 `
 
 const Page = styled.div`
-  font-family: sans-serif;
-  padding: 48px 128px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+  margin: 0 128px;
 
   h1 {
     margin: 0;

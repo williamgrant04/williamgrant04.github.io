@@ -9,7 +9,7 @@ interface DataImageProps {
 const DataImage = ({ href, src, type }: DataImageProps) => {
   return (
     <td colSpan={type == "Ruby on Rails" ? 2 : undefined}>
-      <Link href={href}>
+      <Link href={href} target="_blank">
         <img src={src} height="50px" width={type == "Ruby on Rails" ? "" : "50px"} title={type} alt={type} />
       </Link>
     </td>
