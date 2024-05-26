@@ -35,8 +35,8 @@ const App = () => {
           <ProjectsTitle>Projects</ProjectsTitle>
 
           <ProjectsScroll>
-            {projects.map(({ title, link, repo, apiRepo, image }) => {
-              return <Project title={title} link={link} repo={repo} apiRepo={apiRepo} image={image} key={title}/>
+            {projects.map(({ title, link, repo, apiRepo, image, description }) => {
+              return <Project title={title} link={link} repo={repo} apiRepo={apiRepo} image={image} description={description} key={title}/>
             })}
           </ProjectsScroll>
         </Projects>
@@ -72,12 +72,14 @@ const ProjectsScroll = styled.div`
 `
 
 const Page = styled.div`
+  background-color: #282828;
+  color: #ebebeb;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: sans-serif;
-  margin: 0 128px;
+  padding: 0 128px;
 
   h1 {
     margin: 0;

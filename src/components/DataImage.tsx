@@ -17,7 +17,7 @@ const DataImage = ({ href, src, type }: DataImageProps) => {
 }
 
 const Link = styled.a`
-  background-color: #eee;
+  background-color: #494949;
   border-radius: 8px;
   display: flex;
   justify-content: center;
@@ -32,7 +32,7 @@ const Link = styled.a`
   }
 
   &:hover {
-    background-color: #ddd;
+    background-color: #555555;
     transform: scale(1.1);
   }
 `

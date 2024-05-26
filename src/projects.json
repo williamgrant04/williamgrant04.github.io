@@ -3,19 +3,22 @@
     "title": "The Guild",
     "link": "https://www.theguild.click",
     "repo": "https://github.com/williamgrant04/the-guild",
-    "image": "https://res.cloudinary.com/dfdpaxofx/image/upload/v1716501104/fk8zcby65440grbykqwg.png"
+    "image": "https://res.cloudinary.com/dfdpaxofx/image/upload/v1716501104/fk8zcby65440grbykqwg.png",
+    "description": "The Guild was a project I worked on in Le Wagon alongside 3 other developers in a 2-week timespan. It is a platform for gaming guild management, allowing users to create and manage their guild members in one platform eliminating the need for multiple platforms. It features a live chat and a calendar to show events."
   },
   {
     "title": "Rent-a-peer",
     "link": "https://airbnb-williamgrant04-b248ad0621e1.herokuapp.com/",
     "repo": "https://github.com/williamgrant04/rent-a-peer",
-    "image": "https://res.cloudinary.com/dfdpaxofx/image/upload/v1716504134/d60kzi5tgrckdvpn4mqc.png"
+    "image": "https://res.cloudinary.com/dfdpaxofx/image/upload/v1716504134/d60kzi5tgrckdvpn4mqc.png",
+    "description": "Rent-a-peer was a project I worked on in Le Wagon alongside the same 3 developers in a 1-week timespan before we worked on The Guild. It's a platform for renting services from other users, it is named rent-a-peer because we thought it was funny. As our first project it's not very polished."
   },
   {
     "title": "Destiny loadout manager",
     "link": "",
     "repo": "https://github.com/williamgrant04/destinyLoadoutManager",
     "apiRepo": "https://github.com/williamgrant04/destinyLoadoutManager-api",
-    "image": ""
+    "image": "",
+    "description": "Destiny Loadout Manager is a project I'm working on solo in my free time. It's a web app that allows users to manage their Destiny 2 loadouts. It's built with React and uses the Bungie API to fetch the user's Destiny 2 data. The API is built with Ruby on Rails. And it's still a work in progress."
   }
 ]

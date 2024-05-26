@@ -43,29 +43,34 @@
   },
   "tools": [
     {
-      "href": "",
+      "href": "https://code.visualstudio.com/",
       "src": "https://code.visualstudio.com/assets/images/code-stable.png",
       "type": "Visual Studio Code"
     },
     {
-      "href": "",
+      "href": "https://www.heroku.com/",
       "src": "https://cdn.iconscout.com/icon/free/png-256/free-heroku-225989.png",
       "type": "Heroku"
     },
     {
-      "href": "",
+      "href": "https://git-scm.com/",
       "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png",
       "type": "Git"
     },
     {
-      "href": "",
+      "href": "https://github.com/williamgrant04",
       "src": "https://cdn-icons-png.flaticon.com/512/25/25231.png",
       "type": "GitHub"
     },
     {
-      "href": "",
+      "href": "https://www.postgresql.org/",
       "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/993px-Postgresql_elephant.svg.png",
       "type": "PostgreSQL"
+    },
+    {
+      "href": "https://vitejs.dev/",
+      "src": "https://vitejs.dev/logo-with-shadow.png",
+      "type": "Vite"
     }
   ]
 }
