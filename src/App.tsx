@@ -113,7 +113,7 @@ const Page = styled.div`
 
   @media (max-width: 1024px) {
     padding: 0 64px;
-    overflow: scroll;
+    overflow-y: scroll;
   }
 
   @media (max-width: 768px) {
