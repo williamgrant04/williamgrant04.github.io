@@ -91,7 +91,7 @@ const ProjectWrapper = styled.div<{ $image: string, $show: boolean }>`
     }
   }
 
-  @media (max-width: 320px) {
+  @media (max-width: 375px) {
     height: 300px;
   }
 
