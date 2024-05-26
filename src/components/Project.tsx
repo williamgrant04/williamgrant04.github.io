@@ -93,6 +93,7 @@ const ProjectWrapper = styled.div<{ $image: string, $show: boolean }>`
 
   @media (max-width: 375px) {
     height: 300px;
+    margin-bottom: ${props => props.$show ? "313px" : "8px"};
   }
 
 `
