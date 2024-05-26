@@ -34,10 +34,8 @@ const Project = (props: ProjectProps) => {
       <h2>{props.title}</h2>
 
       <Links>
-        <a href={props.link} target="_blank">
-          <FontAwesomeIcon icon={faLink} />
-        </a>
-        <a href={props.repo} target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+        {props.link ? <a href={props.link} target="_blank"><FontAwesomeIcon icon={faLink} /></a> : <></> }
+        {props.repo ? <a href={props.repo} target="_blank"><FontAwesomeIcon icon={faGithub} /></a> : <></> }
         {props.apiRepo ? <a href={props.apiRepo} target="_blank"><FontAwesomeIcon icon={faGithub} /></a> : <></> }
       </Links>
       <Description $show={showDesc}>
@@ -85,6 +83,18 @@ const ProjectWrapper = styled.div<{ $image: string, $show: boolean }>`
     background-repeat: no-repeat;
     background-color: #eee;
   }
+
+  @media (max-width: 425px) {
+    padding: 0 8px;
+    h2 {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 320px) {
+    height: 300px;
+  }
+
 `
 
 const Links = styled.div`

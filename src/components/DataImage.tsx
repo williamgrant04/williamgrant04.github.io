@@ -35,8 +35,16 @@ const Link = styled.a`
     background-color: #555555;
     transform: scale(1.1);
   }
+
+  @media (max-width: 1024px) {
+    padding: 0 8px;
+    height: 50px;
+    margin: 3px;
+
+    img {
+      height: 35px;
+    }
+  }
 `
-
-
 
 export default DataImage

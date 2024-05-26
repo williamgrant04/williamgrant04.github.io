@@ -50,15 +50,27 @@ const StackAbout = styled.div`
   flex-direction: column;
   width: 60%;
   margin-right: 32px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const About = styled.div`
   font-size: 20px;
   margin-bottom: 16px;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
 `
 
 const Projects = styled.div`
   width: 40%;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 const ProjectsTitle = styled.h2`
@@ -69,6 +81,20 @@ const ProjectsTitle = styled.h2`
 const ProjectsScroll = styled.div`
   overflow-y: scroll;
   height: 80vh;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: #505050;
+    border-radius: 8px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    border-radius: 8px;
+  }
 `
 
 const Page = styled.div`
@@ -84,11 +110,29 @@ const Page = styled.div`
   h1 {
     margin: 0;
   }
+
+  @media (max-width: 1024px) {
+    padding: 0 64px;
+    overflow: scroll;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 425px) {
+    padding: 0 32px;
+  }
 `
 
 const ContentWrapper = styled.div`
   display: flex;
   width: 100%;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    height: 80%;
+  }
 `
 
 export default App

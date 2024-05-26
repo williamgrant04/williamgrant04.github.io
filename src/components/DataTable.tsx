@@ -34,6 +34,12 @@ const DataTable = (props: { type: string }) => {
 
 const Data = styled.tr`
   margin-bottom: 16px;
+
+  @media (max-width: 425px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
 `
 
 export default DataTable
