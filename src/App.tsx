@@ -16,7 +16,7 @@ const App = () => {
           <About>
             <h2>About</h2>
 
-            <p>Hi, I'm William, or Will. For a very long time, I've known I wanted to do something with computers. I wasn't sure what, but computers were the focus. After a while, I found out about coding (keep in mind, in this scenario, I was in primary school), and from then on, I knew that's what I wanted to pursue.</p>
+            <p>For a very long time, I've known I wanted to do something with computers. I wasn't sure what, but computers were the focus. After a while, I found out about coding (keep in mind, in this scenario, I was in primary school), and from then on, I knew that's what I wanted to pursue.</p>
             <p>I wasn't sure what kind of development I wanted to do, but after some time trying to decide between games, software, and web, I decided on web development.</p>
             <p>Throughout the years, I've worked with HTML, CSS, JS, ReactJS, and Ruby. I've also dabbled in C#, and recently, I've started working with TypeScript and React.</p>
           </About>
