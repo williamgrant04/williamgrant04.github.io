@@ -2,13 +2,20 @@ import styled from "styled-components"
 import DataTable from "./components/DataTable"
 import projects from "./projects.json"
 import Project from "./components/Project"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const App = () => {
 
   return (
     <Page>
 
-      <h1>Hi, I'm Will</h1>
+      <Header>
+        <h1>Hi, I'm Will</h1>
+        <a href="https://www.linkedin.com/in/williamgrant04/">
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+      </Header>
       <p><em>Junior full-stack web developer</em></p>
 
       <ContentWrapper>
@@ -44,6 +51,26 @@ const App = () => {
     </Page>
   )
 }
+
+const Header = styled.div`
+  display: flex;
+  align-items: center;
+
+  h1 {
+    margin: 0;
+    margin-right: 16px;
+  }
+
+  svg {
+    font-size: 28px;
+    color: white;
+    transition: 0.25s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+`
 
 const StackAbout = styled.div`
   display: flex;
@@ -106,10 +133,6 @@ const Page = styled.div`
   justify-content: center;
   font-family: sans-serif;
   padding: 0 128px;
-
-  h1 {
-    margin: 0;
-  }
 
   @media (max-width: 1024px) {
     padding: 0 64px;

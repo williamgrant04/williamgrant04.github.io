@@ -19,6 +19,6 @@
     "repo": "https://github.com/williamgrant04/destinyLoadoutManager",
     "apiRepo": "https://github.com/williamgrant04/destinyLoadoutManager-api",
     "image": "",
-    "description": "Destiny Loadout Manager is a project I'm working on solo in my free time. It's a web app that allows users to manage their Destiny 2 loadouts. It's built with React and uses the Bungie API to fetch the user's Destiny 2 data. The API is built with Ruby on Rails. And it's still a work in progress."
+    "description": "Destiny Loadout Manager is a project I'm working on solo in my free time. It's a web app that allows users to manage their Destiny 2 loadouts. It's built with React and uses the Bungie API to fetch the user's Destiny 2 data. The API is built with Ruby on Rails. It's still a work in progress."
   }
 ]
