@@ -20,5 +20,12 @@
     "apiRepo": "https://github.com/williamgrant04/destinyLoadoutManager-api",
     "image": "",
     "description": "Destiny Loadout Manager is a project I'm working on solo in my free time. It's a web app that allows users to manage their Destiny 2 loadouts. It's built with React and uses the Bungie API to fetch the user's Destiny 2 data. The API is built with Ruby on Rails. It's still a work in progress."
+  },
+  {
+    "title": "Chatapp",
+    "repo": "https://github.com/williamgrant04/chatClient",
+    "apiRepo": "https://github.com/williamgrant04/chatServer",
+    "image": "",
+    "description": "Chatapp is a simple chat application I built to learn more about using rails as an API. It's built with React, TypeScript and Ruby on Rails. It's a simple application that allows users to create servers, channels and then chat in said channels. It follows a very simple design, as I'm not much of a designer, but I tried my best. It's a slight work in progress but I'm nearing completion of the project."
   }
 ]

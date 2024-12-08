@@ -9,7 +9,12 @@
       {
         "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
         "src": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-        "type": "Javscript"
+        "type": "JavaScript"
+      },
+      {
+        "href": "https://www.typescriptlang.org/",
+        "src": "https://static-00.iconduck.com/assets.00/typescript-icon-icon-2048x2048-2rhh1z66.png",
+        "type": "TypeScript"
       },
       {
         "href": "https://developer.mozilla.org/en-US/docs/Web/HTML",
